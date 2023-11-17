@@ -27,21 +27,4 @@ if (!$exe){
 else{
     echo header('location:index.html');
 }
-
-// $email= $_POST["email2"];
-// $password= $_POST["pass"];
-
-// $data= "select * from login_t where email='$email' && pass='$password'";
-// $exe= mysqli_query($con,$data);
-// $count = mysqli_num_rows($exe);
-// if ($count>=1){
-//     echo header('location:bo.html');
-// }
-// else{
-//     echo "not found";
-// }
-
-
-
-
 ?>
